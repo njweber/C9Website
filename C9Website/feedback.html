@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cloud 9: Feedback</title>
+        <link rel="icon" href="C9Icon.jpg" type="image/png" sizes="50x50">
+        <link rel="stylesheet" href="feedback.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <div class="dropdown">
+                <button class="dropbtn">Teams</button>
+                <div class="dropdown-content">
+                    <a href="LoL.html">League of Legends</a>
+                    <a href="RL.html">Rocket League</a>
+                    <a href="CSGO.html">Counter Strike: GO</a>
+                </div>
+            </div> 
+            <div class="dropdown">
+                <button class="dropbtn">Connect</button>
+                <div class="dropdown-content">
+                    <a href="https://www.instagram.com/cloud9gg/?hl=en">Instagram</a>
+                    <a href="https://www.facebook.com/cloud9/">Facebook</a>
+                    <a href="https://twitter.com/Cloud9?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
+                    <a href="https://www.twitch.tv/cloud9">Twitch</a>
+                </div>
+            </div> 
+        </div>
+        <div class="logo">
+        <img src="C9Logo.png">
+        </div>
+        <h1>Feedback</h1>
+        <center>
+            <form action="./feedback_received.php" method="POST">
+            <table>
+                <tr><td><label for="name">Name:</label></td><td><input type="text" name="name" /><br /></td></tr>
+                <tr><td><label for="email">Email:</label></td><td><input type="text" name="email" /><br /></td></tr>
+                <tr><td><label for="message">Message:</label></td><td><textarea name="message"></textarea><br /></td></tr>
+                <tr><td colspan="2"><input style="width: 100%" type="submit" value="Send Feedback" /></td></tr>
+            </table>
+        </form>
+        </center>
+    </body>
+    <footer>
+        <p>&copy; Developed by Nate Weber &#124; Privacy Policy</p>
+    </footer>
+</html>
